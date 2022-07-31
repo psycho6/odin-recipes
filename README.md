@@ -7,4 +7,4 @@ the web page will consist of a structure that shows the recipe as a picture with
 
 **** SKILLS TO DISPLAY ****
 1.HTML
-2.CSS
+2.CSS.
