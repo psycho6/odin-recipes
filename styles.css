@@ -1,4 +1,53 @@
+@font-face{
+    font-family: Norse ;
+    src :url("norse/Norse-Bold.otf");
+}
 *{
     font-size: 62.5%;
     box-sizing: border-box;
+}
+#menu{
+    width: 40%;
+    margin: auto;
+}
+#menu-img{
+    width: 40vw;
+    height: 100vh;
+    border-radius: 15px;
+}
+#header{
+    text-align: center;
+}
+#logo{
+    width: auto;
+    height: auto;
+}
+#hero{
+    font-size: 5rem;
+    font-family: "Norse";
+    color: #cf9041;
+}
+img{
+    width : 50rem;
+    height : 35rem;
+}
+#recipes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.container{
+    border: 1px solid grey;
+}
+.container:hover{
+    box-shadow: -2px 2px 12px #1c1c1c;
+}
+h2{
+    font-size: 3rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color :#1c1c1c;
+    margin-left: 1rem;
+}
+a{
+    text-decoration: none;
 }
